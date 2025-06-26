@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Kosmos</title>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Studio Kosmos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#book">Book Now</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="text-center d-flex align-items-center min-vh-100">
+            <div class="container">
+                <h1 class="display-3 text-white">Welcome to Studio Kosmos</h1>
+                <p class="lead text-white">Capture your moments with our professional photography services.</p>
+                <a href="#book" class="btn btn-primary btn-lg">Book an Appointment</a>
+            </div>
+        </section>
+        <section id="book" class="py-5">
+            <div class="container">
+                <h2 class="text-center text-white mb-4">Book Your Session</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label text-white">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="package" class="form-label text-white">Package</label>
+                        <select class="form-select" id="package" required>
+                            <option value="" disabled selected>Select a package</option>
+                            <option value="studio">Studio Session</option>
+                            <option value="self">Self-Photo</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label text-white">Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Booking</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="frontend/js/main.js"></script>
+</body>
+</html>

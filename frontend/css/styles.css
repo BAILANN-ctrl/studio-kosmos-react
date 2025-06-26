@@ -1,0 +1,20 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+.nav-link:hover {
+    color: #b19cd9 !important;
+}
+.btn-primary {
+    background-color: #4a0087;
+    border-color: #4a0087;
+}
+.btn-primary:hover {
+    background-color: #6b00c4;
+}
+#home {
+    background: url('../assets/stars.jpg') no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.5);
+}
