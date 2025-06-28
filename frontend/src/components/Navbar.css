@@ -1,0 +1,13 @@
+.navbar {
+  background: rgba(0, 0, 0, 0.4) !important;
+  transition: background 0.3s ease;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #b19cd9 !important;
+}

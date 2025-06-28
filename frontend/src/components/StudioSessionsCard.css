@@ -1,0 +1,53 @@
+.studio-session-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+}
+
+.package-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.package-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #4a0087;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.package-card:hover {
+  background-color: rgba(107, 0, 196, 0.3);
+}
+
+.selected-package-view {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.package-info {
+  flex: 1 1 300px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #4a0087;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.booking-panel {
+  flex: 1 1 300px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #6b00c4;
+  padding: 20px;
+  border-radius: 10px;
+}
